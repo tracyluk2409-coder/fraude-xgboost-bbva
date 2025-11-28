@@ -189,7 +189,7 @@ import xgboost as xgb
 st.subheader("⚙️ 6: Entrenamiento de modelos con datos reales")
 
 # ✅ URL cruda del archivo CSV en GitHub
-github_url = "https://raw.githubusercontent.com/josesaenz25/fraude-xgboost-bbva/main/transactions_full.csv"
+github_url = "https://raw.githubusercontent.com/tracyluk2409-coder/fraude-xgboost-bbva/main/transactions_full.csv"
 
 # 🔄 Intentar cargar el archivo desde GitHub
 try:
@@ -642,4 +642,5 @@ if df_real is not None:
     except Exception as e:
         st.error(f"❌ Error durante el procesamiento del dataset: {e}")
 else:
+
     st.error("❌ No se pudo cargar el dataset. Verifica el repositorio, el formato o la conexión.")
