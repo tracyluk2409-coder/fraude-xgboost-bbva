@@ -298,7 +298,7 @@ st.markdown("""
             <h4 style="color:#0033A0; font-family:Segoe UI;">⚙️ 6: Entrenamiento con datos</h4>
         </div>
     """, unsafe_allow_html=True)
-github_url = "https://raw.githubusercontent.com/josesaenz25/fraude-xgboost-bbva/main/transactions_full.csv"
+github_url = "https://raw.githubusercontent.com/tracyluk2409/fraude-xgboost-bbva/main/transactions_full.csv"
 try:
     df_real = pd.read_csv(github_url, parse_dates=["timestamp"])
     st.success("✅ Dataset real cargado desde GitHub")
@@ -741,6 +741,7 @@ st.markdown("""
 <br><br>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
